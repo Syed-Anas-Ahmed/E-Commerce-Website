@@ -1,0 +1,84 @@
+.woocommerce #mainform .bykea-btn{
+    background: #02AA30;
+    border-color: #02AA30;
+    color: #fff !important;
+    font-weight: 600;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+.otp_disclaimer{
+    margin-top: 15px !important;
+    font-size: 15px !important;
+}
+.app_install_disclaimer{
+    margin-top: 15px !important;
+}
+.app_install_disclaimer p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.app_install_disclaimer ol{
+    margin-left: 15px;
+}
+.app_install_disclaimer ol li{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.woocommerce-save-button.hide-save-btn{
+    display: none;
+}
+.d-none{
+    display: none !important;
+}
+.message.error{
+    background: #eb4d4d;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.message p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0px;
+}
+.woocommerce #mainform .form-table td{
+    position: relative;
+}
+.woocommerce #mainform .form-table td #register_ipn_url{
+    position: absolute;
+    top: 15px;
+    left: 30%;
+}
+.postbox-container .invoice-status-btn-container .bykea-btn{
+    background: #02AA30;
+    border-color: #02AA30;
+    color: #fff !important;
+    font-weight: 600;
+    display: block;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+.postbox-container .invoice-status-btn-container p{
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.postbox-container .invoice-status-btn-container p.success{
+    background: #19aa31;
+}
+.postbox-container .invoice-status-btn-container p.error{
+    background: #e73737;
+}
+.postbox-container .invoice-status-btn-container p.moderate {
+    background: #b7a341;
+}

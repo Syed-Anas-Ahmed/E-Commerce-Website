@@ -1,0 +1,236 @@
+
+.qisstpay_popup__paragraph_Styles{
+    font-size: 13px;
+    text-align: center;
+    color: #707986;
+    padding:0px 6px;
+}
+.qisstpay___image__overLay_Popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0 0 0 / 36%);
+  transition: opacity 500ms;
+  display:none;
+  align-items: center;
+  z-index:9999;
+}
+
+.qisstpay__popup_whatisQp {
+  margin: 70px auto;
+  padding-bottom: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 1s ease-in-out;
+  z-index:999;
+}
+
+.qisstpay__popup_whatisQp .qisstpay_popupMOdal_close_btn {
+    position: absolute;
+    top: -10px;
+    right: 11px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    z-index: 999;
+    height: 55px;
+}
+.Logo_redirect_qisstPay{
+    display:block;
+    text-align:center;
+}
+
+.qisstpay___image__ForDesktop:focus-visible{
+ outline:none;
+}
+.QisstPay_modal_openBTn_click{
+    background: transparent;
+    color: black;
+    height: 19px;
+    width: 19px;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    z-index: 99;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.qisstpay___image__ForMobile{
+    display:none
+}
+.Logo_redirect_qisstPay img{
+    margin-top: 12px;
+    height: 65px !important;
+    margin-bottom: 7px;
+}
+@media(max-width:767px){
+.Logo_redirect_qisstPay_mob{
+    display:block;
+    text-align:center; 
+    background: #fcebf3;
+}
+.Logo_redirect_qisstPay_mob a{
+    width: 70%;
+    margin: auto;
+    padding-top: 15px;
+    display:inline-block;
+}
+.qisstpay___image__ForMobile{
+    display:block;
+}
+.qisstpay__popup_whatisQp{
+    width: 86%;
+    max-height: 80vh;
+    overflow-y: scroll;
+  }  
+.qisstpay___image__ForDesktop{
+    display:none;
+}
+.Logo_redirect_qisstPay_mob:focus{
+    background:#fcebf3 !important;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+  .qisstpay__popup_whatisQp{
+      width:75%;
+  }  
+  
+}
+@media(min-width:992px) and (max-width:1200px){
+    .qisstpay__popup_whatisQp{
+      width:70%;
+  }  
+}
+.teez-button {
+    width: 100% !important;
+    height: 50px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    background-color: #e82e81 !important;
+    color: white !important;
+    cursor: pointer !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+    border: 1px solid #e82e81 !important;
+    outline-color: transparent !important;
+    margin-bottom: 0.5rem !important;
+    text-decoration: none !important;
+    max-width: 250px;
+}
+
+.teez-button:focus {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.teez-button:hover {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.qp8911_modal-body.teez {
+    position: relative !important;
+}
+
+.qp-lds-roller {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+    top: 50% !important;
+    position: absolute !important;
+  }
+  .qp-lds-roller div {
+    animation: qp-lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .qp-lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: linear-gradient(82deg, #e82e81, #fc6473);
+    margin: -4px 0 0 -4px;
+  }
+  .qp-lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .qp-lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .qp-lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .qp-lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .qp-lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .qp-lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .qp-lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .qp-lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .qp-lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .qp-lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .qp-lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .qp-lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .qp-lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .qp-lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .qp-lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .qp-lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes qp-lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

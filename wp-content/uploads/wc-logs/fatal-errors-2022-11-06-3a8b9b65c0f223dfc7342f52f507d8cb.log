@@ -1,0 +1,2 @@
+2022-11-06T07:51:26+00:00 CRITICAL Out of memory (allocated 48234496) (tried to allocate 8192 bytes) in C:\xampp\htdocs\wscubetech\wp-content\plugins\woocommerce\includes\class-wc-order.php on line 1076
+
